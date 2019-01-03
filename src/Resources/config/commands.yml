@@ -1,0 +1,6 @@
+services:
+    Effiana\TestFrameworkBundle\Command\ContainerTagsDocumentationCommand:
+        public: false
+        class: Effiana\TestFrameworkBundle\Command\ContainerTagsDocumentationCommand
+        tags:
+            - { name: console.command }

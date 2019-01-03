@@ -1,0 +1,7 @@
+default:
+  suites:
+      default:
+          contexts:
+              - Effiana\TestFrameworkBundle\BehatStatisticExtension\Features\Context\StatisticContext
+          paths:
+              - Features

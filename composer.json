@@ -1,0 +1,30 @@
+{
+    "name": "effiana/testframework-bundle",
+    "type": "symfony-bundle",
+    "description": "TestFramework Bundle",
+    "keywords": ["Test", "Framework"],
+    "license": "MIT",
+    "require": {
+        "php": "^7.2",
+        "symfony/symfony": "^4.2",
+        "effiana/migration-bundle": "dev-master",
+        "nelmio/alice": "^3.5"
+    },
+    "autoload": {
+        "psr-4": { "Effiana\\TestFrameworkBundle\\": "src/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5",
+        "behat/behat": "^3.5",
+        "behat/symfony2-extension": "^2.1",
+        "johnkary/phpunit-speedtrap": "^3.0",
+        "behat/mink": "dev-master",
+        "behat/mink-selenium2-driver": "^1.3",
+        "behat/mink-extension": "^2.3"
+    }
+}
